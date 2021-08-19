@@ -27,11 +27,11 @@ font-weight: 800;
 }
 
 .acs-ram-h1, .acs-ram-h2, .acs-ram-h3, .acs-ram-h4, .acs-ram-h5, .acs-ram-h6 {
-margin: 0 !important;
-padding: 0 !important;
-border: 0 !important;
+margin: 0;
+padding: 0;
+border: 0;
 font-size: 100%;
-vertical-align: baseline !important;
+vertical-align: baseline;
 text-transform: uppercase
 } 
 
