@@ -40,7 +40,7 @@ text-transform: uppercase
 .acs-wrapper {
 --accent: #D50001;
 --accent2: #B60000;
---accent3: #b50112;
+--accent3: #b50412;
 --accent4: #880D00;
 --accent5: #D54401;
 --accent6: #b94d2d;
@@ -395,8 +395,8 @@ min-width: 180px;
 transition: 250ms ease-in-out 0ms;
 }
 .acs-button7:hover {
-background-color: var(--accent);
-border: .14286rem solid var(--accent);
+background-color: var(--accent3);
+border: .14286rem solid var(--accent3);
 }
 
 /* Button 8 */
