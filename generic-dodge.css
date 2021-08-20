@@ -258,6 +258,7 @@ transition: 250ms ease-in-out 0ms;
 .acs-button:hover {
 background-color: var(--accent3);
 border: .14286rem solid var(--accent3);
+color: var(--white) !important
 }
 
 /* Button 2 */
@@ -281,6 +282,7 @@ transition: 250ms ease-in-out 0ms;
 .acs-button2:hover {
 background-color: var(--gray5);
 border: .14286rem solid var(--accent2);
+color: var(--accent2) !important
 }
 
 /* Button 3 */
@@ -304,6 +306,7 @@ transition: 250ms ease-in-out 0ms;
 .acs-button3:hover {
 background-color: var(--gray3);
 border: .14286rem solid var(--gray3);
+color: var(--white) !important
 }
 
 
@@ -328,6 +331,7 @@ transition: 250ms ease-in-out 0ms;
 .acs-button4:hover {
 background-color: var(--dark);
 border: .14286rem solid var(--white);
+color: var(--white) !important
 }
 
 /* Button 5 */
@@ -351,6 +355,7 @@ transition: 250ms ease-in-out 0ms;
 .acs-button5:hover {
 background-color: var(--black);
 border: .14286rem solid var(--black);
+color: var(--white) !important
 }
 
 /* Button 6 */
@@ -374,6 +379,7 @@ transition: 250ms ease-in-out 0ms;
 .acs-button6:hover {
 background-color: var(--gray6);
 border: .14286rem solid var(--gray6);
+color: var(--black) !important
 }
 
 /* Button 7 */
@@ -397,6 +403,7 @@ transition: 250ms ease-in-out 0ms;
 .acs-button7:hover {
 background-color: var(--accent3);
 border: .14286rem solid var(--accent3);
+color: var(--white) !important
 }
 
 /* Button 8 */
@@ -421,6 +428,7 @@ transition: 250ms ease-in-out 0ms;
 .acs-button8:hover {
 background-color: var(--accent6);
 border: .14286rem solid var(--accent6);
+color: var(--white) !important
 }
 
 /* Button 9 */
@@ -445,6 +453,7 @@ transition: 250ms ease-in-out 0ms;
 .acs-button9:hover {
 background-color: var(--dark4);
 border: .14286rem solid var(--dark4);
+color: var(--white) !important
 }
 /* BUTTONS: END */
 
