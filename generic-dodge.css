@@ -1,21 +1,36 @@
-/* Font */
+/* OEM Font Embed */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700;800&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700;800&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;700&display=swap');
+/* OEM Font Embed */
 
 
+
+/* OEM Icon Embed */
 @font-face {
 font-family: 'GCSS Icons';
 font-style: normal;
 font-weight: normal;
 src: url('https://www.chrysler.com/etc.clientlibs/settings/wcm/designs/fca-brands/clientlibs/resources/fonts/GCSS-Icons-1608151558.woff') format('woff'), url('https://www.chrysler.com/etc.clientlibs/settings/wcm/designs/fca-brands/clientlibs/resources/fonts/GCSS-Icons-1608151558.woff') format('woff')
 }
+/* OEM Icon Embed */
 
 
+
+/* OEM Font */
+.acs-wrapper { 
+font-family: "Roboto", sans-serif;
+font-weight: 400
+}
+/* OEM Font */
+
+
+
+/* Heading Tags */
 .acs-h1, .acs-h2, .acs-h3, .acs-h4, .acs-h5, .acs-h6 {
 font-family: "Barlow Condensed", sans-serif;
 font-weight: 600;
@@ -26,6 +41,12 @@ line-height: 1.2;
 font-family: "Rajdhani", sans-serif;
 font-weight: 700;
 line-height: 1.2;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+vertical-align: baseline;
+text-transform: uppercase
 }
 
 .acs-h1, .acs-ram-h1 {
@@ -78,26 +99,87 @@ font-size: 1.4rem !important;
 font-size: 1.2rem !important;
 }
 }
+/* Heading Tags */
 
 
-.acs-wrapper { 
-font-family: "Roboto", sans-serif;
-font-weight: 400
+
+/* OEM Font Variables */
+.cjdr-brand-rg {
+font-family: "Roboto", sans-serif !important; 
+font-weight: 400 !important;
+}
+
+.cjdr-brand-sb {
+font-family: "Roboto", sans-serif !important;
+font-weight: 500 !important;
+}
+
+.cjdr-brand-bd {
+font-family: "Roboto", sans-serif !important;
+font-weight: 700 !important;
+}
+
+.cjdr-brand-cond-rg {
+font-family: "Roboto Condensed", sans-serif !important;
+font-weight: 400 !important;
+}
+
+.cjdr-brand-cond-bd {
+font-family: "Roboto Condensed", sans-serif !important;
+font-weight: 700 !important;
+}
+
+.cjdr-brand-head-xl {
+font-family: "Barlow Condensed", sans-serif !important;
+font-weight: 300 !important;
+}
+
+.cjdr-brand-head-rg {
+font-family: "Barlow Condensed", sans-serif !important;
+font-weight: 400 !important;
+}
+
+.cjdr-brand-head-md {
+font-family: "Barlow Condensed", sans-serif !important;
+font-weight: 500 !important;
+}
+
+.cjdr-brand-head-sb {
+font-family: "Barlow Condensed", sans-serif !important;
+font-weight: 600 !important;
+}
+
+.cjdr-brand-head-bd {
+font-family: "Barlow Condensed", sans-serif !important;
+font-weight: 700 !important;
+}
+
+.cjdr-brand-head-xbd {
+font-family: "Barlow Condensed", sans-serif !important;
+font-weight: 800 !important;
+}
+
+.raj-head-rg {
+font-family: "Rajdhani", sans-serif; !important; 
+font-weight: 400 !important;
+}
+
+.raj-head-sb {
+font-family: "Rajdhani", sans-serif; !important; 
+font-weight: 500 !important;
+}
+
+.raj-head-bd {
+font-family: "Rajdhani", sans-serif; !important; 
+font-weight: 700 !important;
 }
 
 .acs-bold {
 font-family: var(--bold-font);   
 font-weight: 800;
 }
+/* OEM Font Variables */
 
-.acs-ram-h1, .acs-ram-h2, .acs-ram-h3, .acs-ram-h4, .acs-ram-h5, .acs-ram-h6 {
-margin: 0;
-padding: 0;
-border: 0;
-font-size: 100%;
-vertical-align: baseline;
-text-transform: uppercase
-} 
 
 
 /* Variables */
@@ -114,18 +196,18 @@ text-transform: uppercase
 --gray2: #636363;
 --gray3: #464646;
 --gray4: #3E3E3E;
---gray5: #E7E7E7;
---gray6: #b7b7b7;
---gray7: #D1D1D1;
---gray8: #BFBFBF;
---gray9: #636363;
---gray10: #d4d4d4;
+--gray5: #b7b7b7;
+--gray6: #D1D1D1;
+--gray7: #BFBFBF;
+--gray8: #636363;
+--gray9: #d4d4d4;
 --dark: #212121; 
 --dark2: #333;
 --dark3: #141414; 
 --dark4: #252525;
 --bold-font: "Barlow Condensed", sans-serif;
 }
+/* Variables */
 
 
 
@@ -149,21 +231,18 @@ color: var(--gray3)
 color: var(--gray4)
 }
 .acs-gray5 {
-color: var(--gray5)
-}
-.acs-gray6 {
 color: var(--gray6)
 }
-.acs-gray7 {
+.acs-gray6 {
 color: var(--gray7)
 }
-.acs-gray8 {
+.acs-gray7 {
 color: var(--gray8)
 }
-.acs-gray9 {
+.acs-gray8 {
 color: var(--gray9)
 }
-.acs-gray10 {
+.acs-gray9 {
 color: var(--gray10)
 }
 .acs-dark {
@@ -178,6 +257,8 @@ color: var(--dark3)
 .acs-dark4 {
 color: var(--dark4)
 }
+/* Text Colors */
+
 
 
 /* Accent Colors */
@@ -199,69 +280,108 @@ color: var(--accent5)
 .acs-accent6 {
 color: var(--accent6)
 }
+/* Accent Colors */
+
 
 
 /* BG Colors */
 .acs-bg-accent {
-background-color: var(--accent)
+--acs-bg-opacity: 1;
+background-color: var(--accent);
+background-color: rgba(213,0,1, var(--acs-bg-opacity))
 }
 .acs-bg-accent2 {
-background-color: var(--accent2)
+--acs-bg-opacity: 1;
+background-color: var(--accent2);
+background-color: rgba(182,0,0, var(--acs-bg-opacity))
 }
 .acs-bg-accent3 {
-background-color: var(--accent3)
+--acs-bg-opacity: 1;
+background-color: var(--accent3);
+background-color: rgba(181,3,18, var(--acs-bg-opacity))
 }
 .acs-bg-accent4 {
-background-color: var(--accent4)
+--acs-bg-opacity: 1;
+background-color: var(--accent4);
+background-color: rgba(136,14,0, var(--acs-bg-opacity))
 }
 .acs-bg-accent5 {
-background-color: var(--accent5)
+--acs-bg-opacity: 1;
+background-color: var(--accent5);
+background-color: rgba(213,68,1, var(--acs-bg-opacity))
 }
 .acs-bg-accent6 {
-background-color: var(--accent6)
+--acs-bg-opacity: 1;
+background-color: var(--accent6);
+background-color: rgba(185,77,45, var(--acs-bg-opacity))
 }
 .acs-bg-gray {
-background-color: var(--gray)
+--acs-bg-opacity: 1;
+background-color: var(--gray);
+background-color: rgba(231,231,231, var(--acs-bg-opacity))
 }
 .acs-bg-gray2 {
-background-color: var(--gray2)
+--acs-bg-opacity: 1;
+background-color: var(--gray2);
+background-color: rgba(99,99,99, var(--acs-bg-opacity))
 }
 .acs-bg-gray3 {
-background-color: var(--gray3)
+--acs-bg-opacity: 1;
+background-color: var(--gray3);
+background-color: rgba(70,70,70, var(--acs-bg-opacity))
 }
 .acs-bg-gray4 {
-background-color: var(--gray4)
+--acs-bg-opacity: 1;
+background-color: var(--gray4);
+background-color: rgba(62,62,62, var(--acs-bg-opacity))
 }
 .acs-bg-gray5 {
-background-color: var(--gray5)
+--acs-bg-opacity: 1;
+background-color: var(--gray5);
+background-color: rgba(183,183,183, var(--acs-bg-opacity))
 }
 .acs-bg-gray6 {
-background-color: var(--gray6)
+--acs-bg-opacity: 1;
+background-color: var(--gray6);
+background-color: rgba(209,209,209, var(--acs-bg-opacity))
 }
 .acs-bg-gray7 {
-background-color: var(--gray7)
+--acs-bg-opacity: 1;
+background-color: var(--gray7);
+background-color: rgba(191,191,191, var(--acs-bg-opacity))
 }
 .acs-bg-gray8 {
-background-color: var(--gray8)
+--acs-bg-opacity: 1;
+background-color: var(--gray8);
+background-color: rgba(99,99,99, var(--acs-bg-opacity))
 }
 .acs-bg-gray9 {
-background-color: var(--gray9)
-}
-.acs-bg-gray10 {
-background-color: var(--gray10)
+--acs-bg-opacity: 1;
+background-color: var(--gray9);
+background-color: rgba(212,212,212, var(--acs-bg-opacity))
 }
 .acs-bg-dark {
-background-color: var(--dark)
+--acs-bg-opacity: 1;
+background-color: var(--dark);
+background-color: rgba(33,33,33, var(--acs-bg-opacity))
 }
 .acs-bg-dark2 {
-background-color: var(--dark2)
+--acs-bg-opacity: 1;
+background-color: var(--dark2);
+background-color: rgba(51,51,51, var(--acs-bg-opacity))
 }
 .acs-bg-dark3 {
-background-color: var(--dark3)
+--acs-bg-opacity: 1;
+background-color: var(--dark3);
+background-color: rgba(20,20,20, var(--acs-bg-opacity))
 }
 .acs-bg-dark4 {
-background-color: var(--dark4)
+--acs-bg-opacity: 1;
+background-color: var(--dark4);
+background-color: rgba(37,37,37, var(--acs-bg-opacity))
 }
+/* BG Colors */
+
 
 
 /* Link Accent */
@@ -297,6 +417,8 @@ font-weight: 500;
 .acs-ram-link-accent:hover {
 text-decoration: underline;
 }
+/* Link Accent */
+
 
 
 /* BUTTONS: START */
@@ -523,7 +645,6 @@ color: var(--white) !important
 
 
 
-
 /* Dodge Icon */
 .asc-dodge-icon {
 display: inline-flex;
@@ -543,6 +664,9 @@ position: absolute;
 padding-right: .5em;
 padding-left: .5em;
 }
+/* Dodge Icon */
+
+
 
 /* RAM Icon */
 .asc-ram-icon {
@@ -563,6 +687,8 @@ position: absolute;
 padding-right: .5em;
 padding-left: .5em;
 }
+/* RAM Icon */
+
 
 
 /* Dodge Link Accent Icon */
@@ -584,6 +710,9 @@ color: var(--accent);
 padding-right: .1em;
 padding-left: .5em;
 }
+/* Dodge Link Accent Icon */
+
+
 
 /* RAM Link Accent Icon */
 .asc-ram-link-accent-icon {
@@ -603,3 +732,4 @@ position: absolute;
 padding-right: .1em;
 padding-left: .5em;
 }
+/* RAM Link Accent Icon */
